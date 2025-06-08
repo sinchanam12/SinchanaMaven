@@ -21,7 +21,7 @@ sh'mvn test'
 }
 stage('Run Application'){
 steps{
-sh'java -jar target/SinchanaMaven-1.0-SNAPSHOT.jar'a
+sh'java -jar target/SinchanaMaven-1.0-SNAPSHOT.jar'
 }
 }
 }
