@@ -6,7 +6,7 @@ maven 'Maven'
 stages{
 stage('Checkout'){
 steps{
-git branch:'Master',url:'https://github.com/sinchanam12/SinchanaMaven.git'
+git branch:'master',url:'https://github.com/sinchanam12/SinchanaMaven.git'
 }
 }
 stage('Build'){
